@@ -25,7 +25,7 @@ body{
   background-attachment: fixed;
 }
 
-/* Layout */
+
 .layout{
   min-height:100vh;
   display:grid;
@@ -37,7 +37,7 @@ body{
   .layout{ grid-template-columns:1fr; padding:18px; }
 }
 
-/* Sidebar */
+
 .sidebar{
   background: rgba(10,20,40,.55);
   backdrop-filter: blur(8px);
@@ -77,7 +77,7 @@ body{
 /* Main content */
 .content{ display:flex; flex-direction:column; gap:22px; }
 
-/* Hero */
+
 .hero{
   background: rgba(255,255,255,.15);
   border-radius: var(--radius);
@@ -95,7 +95,7 @@ body{
   background:#ffffff1a; border-radius:16px; font-size:26px;
 }
 
-/* Panels */
+
 .panel{
   background: var(--panel);
   border-radius: var(--radius);
@@ -105,7 +105,7 @@ body{
 .panel h3{ margin:0 0 6px; }
 .cta-row{ margin-top:10px; }
 
-/* Buttons */
+
 .btn{
   appearance:none; border:0; border-radius:999px; cursor:pointer;
   padding:12px 20px; font-weight:800; text-decoration:none; display:inline-flex;
@@ -117,7 +117,7 @@ body{
 .btn-ghost{ background:#e9f3ff; color:var(--brand-dark); }
 .btn-ghost:hover{ background:#ddeaFF; }
 
-/* Project cards */
+
 .cards{
   display:grid; gap:18px;
   grid-template-columns: repeat(2, minmax(0,1fr));
@@ -146,5 +146,6 @@ body{
   border-radius: 999px;
   padding:6px 10px; font-size:12px; font-weight:800;
 }
+
 
 .actions{ display:flex; gap:10px; flex-wrap:wrap; margin-top:4px; }
